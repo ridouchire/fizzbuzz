@@ -1,18 +1,32 @@
 <?php
+/**
+ * FizzBuzz algorithm implementing by ridouchire
+ *
+ * PHP version 7
+ *
+ * @category Joke
+ * @package  FizzBuzz
+ * @author   ridouchire <ridouchire@gmail.com>
+ * @license  GPL v3
+ * @link     none
+ */
 
-function fizzbuzz($number)
+/**
+ * Check the number with fizzuzz
+ *
+ * @param int $number Number
+ *
+ * @return string
+ */
+function fizzbuzz(int $number): string
 {
     if (($number % 3 ) == 0  && ($number % 5) == 0) {
-        echo("FizzBuzz\n");
+        return (string) "FizzBuzz";
     } elseif (($number % 3) == 0) {
-        echo("Fizz\n");
+        return (string) "Fizz";
     } elseif (($number % 5) == 0) {
-        echo("Buzz\n");
+        return (string) "Buzz";
     } else {
-        echo("{$number}\n");
+        return (string) "{$number}";
     }
-}
-
-for ($i = 0; $i < 100; $i++) {
-    fizzbuzz($i);
 }

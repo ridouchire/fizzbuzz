@@ -1,0 +1,16 @@
+{
+    "name": "ridouchire/fizzbuzz",
+    "description": "FizzBuzz joke algorithm implementing by @ridouchire",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "ridouchire",
+            "email": "ridouchire@gmail.com"
+        }
+    ],
+
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
